@@ -1,7 +1,7 @@
 import googlemaps
 
 # API anahtarını kullanarak googlemaps nesnesini oluşturun
-gmaps = googlemaps.Client(key="AIzaSyD7m7MFAUoflO1FEdup8wn5fATOVgmHfrQ")
+gmaps = googlemaps.Client(key="your-api-key")
 
 # Balıkesir ilinin sınırlarını çekin
 result = gmaps.geocode('Balikesir, Turkey')
